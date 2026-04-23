@@ -1,0 +1,14 @@
+{
+  "dashboard": "Dashboard",
+  "scan": "Scan Crop",
+  "report": "Reports",
+  "health": "Crop Health",
+  "treatment": "Treatment",
+  "welcome": "AI-Based Smart Agriculture System",
+  "ai_insights": "AI Insights",
+  "chat": "AI Chat",
+  "settings": "Settings",
+  "login": "Sign In",
+  "register": "Create Account",
+  "logout": "Logout"
+}
