@@ -207,6 +207,11 @@ class CropScan(models.Model):
         ordering = ['-created_at']
         verbose_name = 'Crop Scan'
         verbose_name_plural = 'Crop Scans'
+        indexes = [
+            models.Index(fields=['user', '-created_at']),
+            models.Index(fields=['disease']),
+            models.Index(fields=['database_verified']),
+        ]
 
     def __str__(self):
         return f"{self.disease} ({self.confidence}%) - {self.created_at.strftime('%Y-%m-%d %H:%M')}"

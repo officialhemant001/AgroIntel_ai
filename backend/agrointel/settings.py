@@ -72,10 +72,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'agrointel.wsgi.application'
 
-# Database (with SQLite fallback for development)
+# Database (PostgreSQL for production, SQLite fallback for development)
 DATABASES = {
     'default': env.db('DATABASE_URL', default=f'sqlite:///{BASE_DIR / "db.sqlite3"}')
 }
+
+# Production Security
+if not DEBUG:
+    SECURE_BROWSER_XSS_FILTER = True
+    SECURE_CONTENT_TYPE_NOSNIFF = True
+    SECURE_SSL_REDIRECT = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+    X_FRAME_OPTIONS = 'DENY'
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [

@@ -1,51 +1,78 @@
-/**
- * ResultCard — Displays AI scan results in the project's glassmorphism theme.
- * Fixed: removed non-existent Tailwind classes.
- */
-export default function ResultCard({ result }) {
-  if (!result) {
-    return (
-      <div className="content-card" style={{ textAlign: "center", padding: "32px" }}>
-        <p style={{ color: "var(--text-muted)", fontSize: "14px" }}>
-          🌱 No analysis data yet — upload a leaf image to get started
-        </p>
-      </div>
-    );
-  }
+import React from 'react';
+import './ResultCard.css';
+
+const ResultCard = ({ result }) => {
+  if (!result) return null;
+
+  const {
+    disease,
+    confidence,
+    severity,
+    plant_name,
+    treatment,
+    severity_color,
+    short_summary,
+    database_verified
+  } = result;
+
+  const getStatusIcon = (sev) => {
+    switch (sev.toLowerCase()) {
+      case 'high': return '🔴';
+      case 'medium': return '🟡';
+      case 'low': return '🟢';
+      case 'none': return '✅';
+      default: return '⚪';
+    }
+  };
 
   return (
-    <div className="content-card">
-      <div className="content-card-header">
-        <span className="content-card-title">🧠 AI Analysis Result</span>
-        {result.confidence && (
-          <span className="content-card-badge">
-            {result.confidence}% confident
-          </span>
-        )}
-      </div>
-
-      <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-        <div className="report-data-item">
-          <label>Disease</label>
-          <span>{result.disease || "N/A"}</span>
+    <div className="result-card glass-panel animate-fade-in-up">
+      <div className="result-card-header">
+        <div className="status-badge" style={{ backgroundColor: `var(--accent-${severity_color})` }}>
+          {getStatusIcon(severity)} {severity.toUpperCase()} SEVERITY
         </div>
-        <div className="report-data-item">
-          <label>Pest</label>
-          <span>{result.pest || "None detected"}</span>
-        </div>
-        <div className="report-data-item">
-          <label>Treatment</label>
-          <span>{result.treatment || "N/A"}</span>
-        </div>
-        {result.severity && (
-          <div className="report-data-item">
-            <label>Severity</label>
-            <span className={`severity ${result.severity}`}>
-              {result.severity.charAt(0).toUpperCase() + result.severity.slice(1)}
-            </span>
+        {database_verified && (
+          <div className="verified-badge">
+            🛡️ DB VERIFIED
           </div>
         )}
       </div>
+
+      <div className="result-card-body">
+        <h2 className="disease-name">{disease}</h2>
+        <p className="plant-info">Target: <span className="highlight">{plant_name}</span></p>
+        
+        <div className="confidence-meter">
+          <div className="meter-label">
+            <span>AI Confidence</span>
+            <span>{confidence}%</span>
+          </div>
+          <div className="meter-bar">
+            <div 
+              className="meter-fill" 
+              style={{ width: `${confidence}%`, backgroundColor: `var(--accent-${severity_color})` }}
+            ></div>
+          </div>
+        </div>
+
+        <div className="summary-box">
+          <h4>Analysis Summary</h4>
+          <p>{short_summary}</p>
+        </div>
+
+        {treatment && (
+          <div className="treatment-preview">
+            <h4>Quick Treatment</h4>
+            <p>{treatment}</p>
+          </div>
+        )}
+      </div>
+
+      <div className="result-card-footer">
+        <button className="btn-details">View Full Protocol →</button>
+      </div>
     </div>
   );
-}
+};
+
+export default ResultCard;

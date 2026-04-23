@@ -4,9 +4,11 @@ import { useLocation } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import ChartBox from "../components/ChartBox";
+import ResultCard from "../components/ResultCard";
 import { getScanHistory } from "../services/api";
 import "../styles/dashboard.css";
 import "../styles/pages.css";
+import "../components/ResultCard.css";
 
 export default function Report() {
   const location = useLocation();
@@ -112,105 +114,20 @@ export default function Report() {
                 </div>
               )}
 
-              {/* Top Section: Image + Results */}
-              <div className="report-grid animate-fade-in-up">
-                {/* Image Card */}
-                <div className="report-image-card">
-                  {d.image_url ? (
-                    <img src={d.image_url} alt="Analyzed Leaf" />
-                  ) : (
-                    <div style={{
-                      width: "100%", height: "240px", background: "var(--bg-elevated)",
-                      display: "flex", alignItems: "center", justifyContent: "center", fontSize: "48px",
-                    }}>🌿</div>
-                  )}
-                  <div className="report-image-info">
-                    <h3>{d.card_title || "Analyzed Crop Image"}</h3>
-                    <p>Processed by AgroIntel AI Engine</p>
-                  </div>
+              <div className="report-main-layout animate-fade-in-up">
+                <div className="report-card-container">
+                  <ResultCard result={d} />
                 </div>
-
-                {/* Result Card */}
-                <div className="report-result-card">
-                  <h3>🌿 Analysis Result</h3>
-
-                  <div className="report-data-grid">
-                    {d.plant_name && (
-                      <div className="report-data-item">
-                        <label>Plant</label>
-                        <span>{d.plant_name}</span>
-                      </div>
+                
+                <div className="report-image-side">
+                  <div className="report-image-card-premium glass-panel">
+                    {d.image_url ? (
+                      <img src={d.image_url} alt="Analyzed Leaf" />
+                    ) : (
+                      <div className="image-placeholder">🌿</div>
                     )}
-                    <div className="report-data-item">
-                      <label>Disease Detected</label>
-                      <span>{d.disease}</span>
-                    </div>
-                    <div className="report-data-item">
-                      <label>Pest Identified</label>
-                      <span>{d.pest || "None"}</span>
-                    </div>
-                    <div className="report-data-item">
-                      <label>AI Confidence</label>
-                      <span style={{ color: sevColor }}>
-                        {d.confidence ? `${d.confidence}%` : "N/A"}
-                      </span>
-                    </div>
-                    <div className="report-data-item">
-                      <label>Severity</label>
-                      <span style={{ color: sevColor, textTransform: "capitalize" }}>
-                        {d.severity || "N/A"}
-                      </span>
-                    </div>
+                    <div className="image-tag">AI ANALYSIS TARGET</div>
                   </div>
-
-                  {/* Symptoms */}
-                  {d.symptoms && d.symptoms.length > 0 && (
-                    <div style={{ marginTop: "14px" }}>
-                      <h4 style={{ fontSize: "13px", color: "var(--text-secondary)", marginBottom: "6px" }}>Symptoms</h4>
-                      <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
-                        {d.symptoms.map((s, i) => (
-                          <span key={i} style={{
-                            padding: "4px 10px", background: "var(--bg-elevated)",
-                            borderRadius: "var(--radius-full)", fontSize: "12px", color: "var(--text-secondary)",
-                          }}>{s}</span>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Treatment Alert */}
-                  <div className="report-alert">
-                    <span className="alert-icon">💊</span>
-                    <div className="alert-content">
-                      <h4>Recommended Treatment</h4>
-                      {d.organic_treatment?.length > 0 && (
-                        <p><strong>Organic:</strong> {d.organic_treatment.join(", ")}</p>
-                      )}
-                      {d.chemical_treatment?.length > 0 && (
-                        <p><strong>Chemical:</strong> {d.chemical_treatment.join(", ")}</p>
-                      )}
-                      {d.dosage && <p><strong>Dosage:</strong> {d.dosage}</p>}
-                      {!d.organic_treatment?.length && !d.chemical_treatment?.length && d.treatment && (
-                        <p>{d.treatment}</p>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* Medicine List */}
-                  {d.medicine_list?.length > 0 && (
-                    <div style={{ marginTop: "12px", padding: "10px 14px", background: "rgba(6, 182, 212, 0.08)", borderRadius: "var(--radius-md)", border: "1px solid rgba(6, 182, 212, 0.2)" }}>
-                      <h4 style={{ fontSize: "13px", color: "var(--accent-sky)", marginBottom: "4px" }}>💉 Medicines</h4>
-                      <p style={{ fontSize: "13px" }}>{d.medicine_list.join(", ")}</p>
-                    </div>
-                  )}
-
-                  {/* Fertilizer Plan */}
-                  {d.fertilizer_plan?.length > 0 && (
-                    <div style={{ marginTop: "8px", padding: "10px 14px", background: "rgba(34, 197, 94, 0.08)", borderRadius: "var(--radius-md)", border: "1px solid rgba(34, 197, 94, 0.2)" }}>
-                      <h4 style={{ fontSize: "13px", color: "var(--primary)", marginBottom: "4px" }}>🌱 Fertilizer Plan</h4>
-                      <p style={{ fontSize: "13px" }}>{d.fertilizer_plan.join(", ")}</p>
-                    </div>
-                  )}
                 </div>
               </div>
 

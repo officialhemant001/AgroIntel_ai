@@ -105,14 +105,22 @@ class AgroAI:
             return
 
         try:
-            # Placeholder for loading real models
-            # In production:
-            # self.disease_model = tf.keras.models.load_model('api/ai_models/disease_cnn.h5')
-            # self.pest_model = YOLO('api/ai_models/pest_yolo.pt')
-            logger.info("AgroAI: Models loading... (Simulated for now)")
+            # Load real models from the ai_models directory
+            model_path = os.path.join(settings.BASE_DIR, 'api', 'ai_models', 'disease_cnn.h5')
+            
+            if os.path.exists(model_path):
+                import tensorflow as tf
+                self.disease_model = tf.keras.models.load_model(model_path)
+                logger.info(f"AgroAI: Disease model loaded from {model_path}")
+            else:
+                logger.warning(f"AgroAI: Model file not found at {model_path} — falling back to simulation")
+                self.disease_model = None
+
             self.initialized = True
         except Exception as e:
             logger.error(f"AgroAI: Initialization failed: {e}")
+            self.disease_model = None
+            self.initialized = True # Mark as initialized even if it failed to avoid repeated retries
 
     def preprocess_image(self, image_file):
         """
@@ -152,8 +160,11 @@ class AgroAI:
             # STEP 2: Preprocess
             preprocessed = self.preprocess_image(image_file)
 
-            # STEP 3 & 4: AI Inference (simulated — pluggable for real model)
-            ai_result = self._run_ai_inference(preprocessed)
+            # STEP 3 & 4: AI Inference (Real or Simulated)
+            if hasattr(self, 'disease_model') and self.disease_model:
+                ai_result = self._run_real_inference(preprocessed)
+            else:
+                ai_result = self._run_ai_inference(preprocessed)
 
             # STEP 5: Cross-check with database
             enriched = self._enrich_from_database(ai_result)
@@ -234,6 +245,36 @@ class AgroAI:
         result = random.choice(results)
         result['confidence'] = round(result['confidence'], 2)
         return result
+
+    def _run_real_inference(self, preprocessed_image):
+        """
+        STEP 3 & 4: Run real AI model inference using loaded Keras model.
+        """
+        try:
+            import tensorflow as tf
+            # Add batch dimension
+            img_batch = np.expand_dims(preprocessed_image, axis=0)
+            
+            # Prediction
+            predictions = self.disease_model.predict(img_batch)
+            score = tf.nn.softmax(predictions[0])
+            
+            # This mapping should match your model's classes
+            # Example for PlantVillage dataset (simplified)
+            class_names = ['Healthy', 'Leaf Blight', 'Yellow Rust', 'Powdery Mildew', 'Late Blight', 'Bacterial Wilt']
+            predicted_class = class_names[np.argmax(score)]
+            confidence = float(100 * np.max(score))
+
+            return {
+                'disease': predicted_class,
+                'plant_name': 'Detected Plant', # Can be improved with a plant classifier
+                'confidence': round(confidence, 2),
+                'severity': 'medium' if confidence < 90 else 'low', # Heuristic
+                'pest': 'None',
+            }
+        except Exception as e:
+            logger.error(f"AgroAI: Real inference failed: {e}")
+            return self._run_ai_inference(preprocessed_image)
 
     def _enrich_from_database(self, ai_result):
         """

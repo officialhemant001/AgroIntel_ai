@@ -17,9 +17,11 @@ urlpatterns = [
     path('auth/login/', views.LoginView.as_view(), name='login'),
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
-    # Crop Scans
+    # Crop Scans (with requested aliases)
     path('scan/', views.scan_crop, name='scan_crop'),
+    path('predict/', views.scan_crop, name='predict'),
     path('scan/history/', views.scan_history, name='scan_history'),
+    path('history/', views.scan_history, name='history_alias'),
     path('scan/stats/', views.scan_stats, name='scan_stats'),
     path('scan/<int:scan_id>/', views.scan_detail, name='scan_detail'),
 

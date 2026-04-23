@@ -182,9 +182,18 @@ export default function Scan() {
           {image && (
             <div className="scan-preview">
               <img src={image} alt="Leaf preview" />
+              
+              {/* Premium Scanning Effect */}
+              {loading && (
+                <div className="scanning-overlay">
+                  <div className="scanning-line"></div>
+                  <div className="scanning-glow"></div>
+                </div>
+              )}
+
               <div className="scan-preview-overlay">
                 <span>📎 {fileName}</span>
-                <button className="scan-remove-btn" onClick={handleRemove}>
+                <button className="scan-remove-btn" onClick={handleRemove} disabled={loading}>
                   ✕ Remove
                 </button>
               </div>

@@ -9,12 +9,12 @@ export default defineConfig({
     proxy: {
       // Proxy API requests to Django backend during development
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://127.0.0.1:8000',
         changeOrigin: true,
       },
       // Proxy media file requests
       '/media': {
-        target: 'http://localhost:8000',
+        target: 'http://127.0.0.1:8000',
         changeOrigin: true,
       },
     },
