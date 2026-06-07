@@ -325,3 +325,2631 @@
 [2026-04-23 23:02:04,979] INFO api: API Response: GET /api/v1/health-check/ - Status: 200 - Duration: 0.24s
 [2026-04-23 23:02:18,024] INFO api: API Request: GET /api/v1/health-check/
 [2026-04-23 23:02:18,197] INFO api: API Response: GET /api/v1/health-check/ - Status: 200 - Duration: 0.17s
+[2026-04-23 23:03:20,218] INFO api: API Request: POST /api/v1/auth/login/
+[2026-04-23 23:03:20,380] ERROR api: API Error: POST /api/v1/auth/login/ - Status: 401 - Duration: 0.16s
+[2026-04-23 23:03:33,263] INFO api: API Request: POST /api/v1/auth/register/
+[2026-04-23 23:03:33,438] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.17s
+[2026-04-23 23:03:39,421] INFO api: API Request: POST /api/v1/auth/login/
+[2026-04-23 23:03:40,491] INFO api: API Response: POST /api/v1/auth/login/ - Status: 200 - Duration: 1.07s
+[2026-04-23 23:03:40,659] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-04-23 23:03:40,849] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.19s
+[2026-04-23 23:03:40,854] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-04-23 23:03:40,936] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-04-23 23:03:41,034] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.18s
+[2026-04-23 23:03:41,137] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.20s
+[2026-04-23 23:03:41,143] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-04-23 23:03:41,148] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-04-23 23:03:41,318] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.18s
+[2026-04-23 23:03:41,422] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.27s
+[2026-04-23 23:03:41,428] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-04-23 23:03:41,596] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.17s
+[2026-04-23 23:03:56,908] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-04-23 23:03:57,223] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.31s
+[2026-04-23 23:03:57,230] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-04-23 23:03:57,237] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-04-23 23:03:57,421] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.19s
+[2026-04-23 23:03:57,536] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.30s
+[2026-04-23 23:03:57,541] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-04-23 23:03:57,548] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-04-23 23:03:57,721] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.18s
+[2026-04-23 23:03:57,849] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.30s
+[2026-04-23 23:03:57,856] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-04-23 23:03:58,043] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.19s
+[2026-04-23 23:04:04,167] INFO api: API Request: GET /api/v1/db/pests/?crop=&damage=
+[2026-04-23 23:04:04,466] INFO api: API Response: GET /api/v1/db/pests/?crop=&damage= - Status: 200 - Duration: 0.30s
+[2026-04-23 23:04:04,473] INFO api: API Request: GET /api/v1/db/pests/?crop=&damage=
+[2026-04-23 23:04:04,480] INFO api: API Request: GET /api/v1/db/medicines/?type=pesticide&target=
+[2026-04-23 23:04:04,640] INFO api: API Response: GET /api/v1/db/pests/?crop=&damage= - Status: 200 - Duration: 0.17s
+[2026-04-23 23:04:04,761] INFO api: API Response: GET /api/v1/db/medicines/?type=pesticide&target= - Status: 200 - Duration: 0.28s
+[2026-04-23 23:04:04,767] INFO api: API Request: GET /api/v1/db/medicines/?type=pesticide&target=
+[2026-04-23 23:04:04,965] INFO api: API Response: GET /api/v1/db/medicines/?type=pesticide&target= - Status: 200 - Duration: 0.20s
+[2026-04-23 23:04:13,601] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-04-23 23:04:13,810] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.21s
+[2026-04-23 23:04:13,817] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-04-23 23:04:13,824] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-04-23 23:04:13,995] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.18s
+[2026-04-23 23:04:14,107] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.28s
+[2026-04-23 23:04:14,114] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-04-23 23:04:14,121] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-04-23 23:04:14,286] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.17s
+[2026-04-23 23:04:14,391] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.27s
+[2026-04-23 23:04:14,397] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-04-23 23:04:14,586] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.19s
+[2026-04-24 22:39:14,681] INFO api: API Request: POST /api/auth/signup/
+[2026-04-24 22:39:14,710] ERROR api: API Error: POST /api/auth/signup/ - Status: 404 - Duration: 0.03s
+[2026-04-24 22:41:15,399] INFO api: API Request: POST /api/auth/signup/
+[2026-04-24 22:41:15,411] ERROR api: API Error: POST /api/auth/signup/ - Status: 404 - Duration: 0.01s
+[2026-04-24 22:59:34,893] INFO api: API Request: POST /api/search/
+[2026-04-24 22:59:34,902] ERROR api: API Error: POST /api/search/ - Status: 404 - Duration: 0.01s
+[2026-04-24 22:59:34,903] INFO api: API Request: POST /api/search/
+[2026-04-24 22:59:34,913] ERROR api: API Error: POST /api/search/ - Status: 404 - Duration: 0.01s
+[2026-04-24 23:00:08,887] INFO api: API Request: POST /api/search/
+[2026-04-24 23:00:08,891] ERROR api: API Error: POST /api/search/ - Status: 404 - Duration: 0.00s
+[2026-04-24 23:01:35,343] INFO api: API Request: GET /
+[2026-04-24 23:01:35,354] ERROR api: API Error: GET / - Status: 404 - Duration: 0.01s
+[2026-04-24 23:01:35,491] INFO api: API Request: GET /favicon.ico
+[2026-04-24 23:01:35,497] ERROR api: API Error: GET /favicon.ico - Status: 404 - Duration: 0.01s
+[2026-04-24 23:04:27,375] INFO api: API Request: GET /api/v1/
+[2026-04-24 23:04:27,380] ERROR api: API Error: GET /api/v1/ - Status: 404 - Duration: 0.00s
+[2026-04-24 23:06:04,810] INFO api: API Request: GET /api/v1/health-check/
+[2026-04-24 23:06:04,955] INFO api: API Response: GET /api/v1/health-check/ - Status: 200 - Duration: 0.14s
+[2026-04-24 23:15:46,537] INFO api: API Request: POST /api/search/
+[2026-04-24 23:15:46,542] ERROR api: API Error: POST /api/search/ - Status: 404 - Duration: 0.00s
+[2026-04-24 23:20:25,859] INFO api: API Request: POST /api/auth/signup/
+[2026-04-24 23:20:25,864] ERROR api: API Error: POST /api/auth/signup/ - Status: 404 - Duration: 0.00s
+[2026-04-25 00:34:31,018] INFO api: API Request: GET /
+[2026-04-25 00:34:31,034] ERROR api: API Error: GET / - Status: 404 - Duration: 0.02s
+[2026-04-25 00:34:31,305] INFO api: API Request: GET /favicon.ico
+[2026-04-25 00:34:31,315] ERROR api: API Error: GET /favicon.ico - Status: 404 - Duration: 0.01s
+[2026-04-25 00:35:38,723] INFO api: API Request: GET /
+[2026-04-25 00:35:38,730] ERROR api: API Error: GET / - Status: 404 - Duration: 0.01s
+[2026-04-25 00:35:38,871] INFO api: API Request: GET /favicon.ico
+[2026-04-25 00:35:38,880] ERROR api: API Error: GET /favicon.ico - Status: 404 - Duration: 0.01s
+[2026-04-25 00:35:55,456] INFO api: API Request: GET /docs
+[2026-04-25 00:35:55,463] ERROR api: API Error: GET /docs - Status: 404 - Duration: 0.01s
+[2026-04-25 01:50:04,311] INFO api: API Request: GET /
+[2026-04-25 01:50:04,381] ERROR api: API Error: GET / - Status: 404 - Duration: 0.07s
+[2026-04-25 01:50:04,571] INFO api: API Request: GET /favicon.ico
+[2026-04-25 01:50:04,583] ERROR api: API Error: GET /favicon.ico - Status: 404 - Duration: 0.01s
+[2026-04-25 01:51:48,621] INFO api: API Request: POST /api/auth/register/
+[2026-04-25 01:51:48,631] ERROR api: API Error: POST /api/auth/register/ - Status: 404 - Duration: 0.01s
+[2026-04-25 01:54:24,944] INFO api: API Request: POST /api/v1/auth/register/
+[2026-04-25 01:54:25,341] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.40s
+[2026-04-25 01:57:36,371] INFO api: API Request: POST /api/v1/auth/register/
+[2026-04-25 01:57:36,680] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.31s
+[2026-04-25 01:57:36,695] INFO api: API Request: POST /api/v1/auth/login/
+[2026-04-25 01:57:37,536] ERROR api: API Error: POST /api/v1/auth/login/ - Status: 401 - Duration: 0.84s
+[2026-04-25 02:02:49,868] INFO api: API Request: GET /
+[2026-04-25 02:02:49,875] ERROR api: API Error: GET / - Status: 404 - Duration: 0.01s
+[2026-04-25 02:05:20,864] INFO api: API Request: POST /api/v1/auth/register/
+[2026-04-25 02:05:21,019] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.16s
+[2026-04-25 02:05:21,022] INFO api: API Request: POST /api/v1/auth/login/
+[2026-04-25 02:05:21,161] ERROR api: API Error: POST /api/v1/auth/login/ - Status: 401 - Duration: 0.14s
+[2026-04-25 02:05:37,026] INFO api: API Request: POST /api/v1/auth/register/
+[2026-04-25 02:05:37,161] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.14s
+[2026-04-25 02:05:37,167] INFO api: API Request: POST /api/v1/auth/login/
+[2026-04-25 02:05:37,366] ERROR api: API Error: POST /api/v1/auth/login/ - Status: 401 - Duration: 0.20s
+[2026-05-02 22:27:58,724] INFO api: API Request: POST /api/v1/auth/login/
+[2026-05-02 22:28:02,020] INFO api: API Response: POST /api/v1/auth/login/ - Status: 200 - Duration: 3.30s
+[2026-05-02 22:28:02,209] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-02 22:28:02,427] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.22s
+[2026-05-02 22:28:02,435] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-02 22:28:02,469] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-02 22:28:02,657] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.22s
+[2026-05-02 22:28:02,868] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.40s
+[2026-05-02 22:28:02,876] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-02 22:28:02,883] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-02 22:28:03,068] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.19s
+[2026-05-02 22:28:03,182] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.30s
+[2026-05-02 22:28:03,190] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-02 22:28:03,369] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.18s
+[2026-05-02 22:28:27,409] INFO api: API Request: POST /api/v1/scan/
+[2026-05-02 22:28:27,859] INFO api: Starting scan for image: Screenshot 2026-04-19 162949.png by user: hemantsonker4@gmail.com
+[2026-05-02 22:28:27,859] WARNING api: AgroAI: Model file not found at D:\PROJECT ALL\AgroIntel AI\backend\api\ai_models\disease_cnn.h5 — falling back to simulation
+[2026-05-02 22:28:27,965] ERROR api: AgroAI: Analysis pipeline failed: No module named 'langchain_google_genai'
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\utils.py", line 173, in analyze
+    from .agents import run_agent_pipeline
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\agents.py", line 3, in <module>
+    from langchain_google_genai import ChatGoogleGenerativeAI
+ModuleNotFoundError: No module named 'langchain_google_genai'
+[2026-05-02 22:28:27,967] WARNING api: AgroAI: FAILSAFE activated — returning database-only result
+[2026-05-02 22:28:27,987] INFO api: Scan saved: ID=3, Disease=Powdery Mildew, DB_Verified=True
+[2026-05-02 22:28:27,990] INFO api: API Response: POST /api/v1/scan/ - Status: 201 - Duration: 0.58s
+[2026-05-02 22:28:28,036] INFO api: API Request: GET /media/scans/2026/05/02/Screenshot_2026-04-19_162949.png
+[2026-05-02 22:28:28,140] INFO api: API Response: GET /media/scans/2026/05/02/Screenshot_2026-04-19_162949.png - Status: 200 - Duration: 0.10s
+[2026-05-02 22:28:37,227] INFO api: API Request: GET /api/v1/db/pests/?crop=&damage=
+[2026-05-02 22:28:37,481] INFO api: API Response: GET /api/v1/db/pests/?crop=&damage= - Status: 200 - Duration: 0.25s
+[2026-05-02 22:28:37,489] INFO api: API Request: GET /api/v1/db/pests/?crop=&damage=
+[2026-05-02 22:28:37,495] INFO api: API Request: GET /api/v1/db/medicines/?type=pesticide&target=
+[2026-05-02 22:28:37,675] INFO api: API Response: GET /api/v1/db/pests/?crop=&damage= - Status: 200 - Duration: 0.19s
+[2026-05-02 22:28:37,791] INFO api: API Response: GET /api/v1/db/medicines/?type=pesticide&target= - Status: 200 - Duration: 0.30s
+[2026-05-02 22:28:37,799] INFO api: API Request: GET /api/v1/db/medicines/?type=pesticide&target=
+[2026-05-02 22:28:37,984] INFO api: API Response: GET /api/v1/db/medicines/?type=pesticide&target= - Status: 200 - Duration: 0.19s
+[2026-05-02 22:28:38,839] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-02 22:28:39,095] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.26s
+[2026-05-02 22:28:39,102] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-02 22:28:39,274] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.17s
+[2026-05-02 22:28:44,147] INFO api: API Request: POST /api/v1/chat/
+[2026-05-02 22:28:44,443] ERROR api: API Error: POST /api/v1/chat/ - Status: 400 - Duration: 0.30s
+[2026-05-02 22:28:50,983] INFO api: API Request: POST /api/v1/chat/
+[2026-05-02 22:28:51,173] ERROR api: API Error: POST /api/v1/chat/ - Status: 400 - Duration: 0.19s
+[2026-05-02 22:28:54,272] INFO api: API Request: POST /api/v1/chat/
+[2026-05-02 22:28:54,459] ERROR api: API Error: POST /api/v1/chat/ - Status: 400 - Duration: 0.19s
+[2026-05-03 17:33:44,787] INFO api: API Request: POST /api/v1/auth/login/
+[2026-05-03 17:33:46,754] INFO api: API Response: POST /api/v1/auth/login/ - Status: 200 - Duration: 1.97s
+[2026-05-03 17:33:47,075] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:33:47,520] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.44s
+[2026-05-03 17:33:47,528] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:33:47,540] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 17:33:47,766] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.24s
+[2026-05-03 17:33:47,920] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:33:47,935] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.40s
+[2026-05-03 17:33:47,943] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 17:33:47,954] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:33:48,166] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:33:48,169] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.23s
+[2026-05-03 17:33:48,325] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.37s
+[2026-05-03 17:33:48,332] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:33:48,555] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.22s
+[2026-05-03 17:33:58,980] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:33:59,287] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.31s
+[2026-05-03 17:33:59,294] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:33:59,543] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.25s
+[2026-05-03 17:34:02,568] INFO api: API Request: POST /api/v1/chat/
+[2026-05-03 17:34:02,871] ERROR api: API Error: POST /api/v1/chat/ - Status: 400 - Duration: 0.30s
+[2026-05-03 17:34:49,976] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:34:50,238] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.26s
+[2026-05-03 17:34:50,247] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:34:50,259] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 17:34:50,534] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.29s
+[2026-05-03 17:34:50,674] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:34:50,680] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.42s
+[2026-05-03 17:34:50,688] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 17:34:50,695] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:34:50,873] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:34:50,874] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:34:50,975] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:34:50,981] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.29s
+[2026-05-03 17:34:51,118] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.42s
+[2026-05-03 17:34:51,126] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:34:51,327] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.45s
+[2026-05-03 17:34:51,427] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.55s
+[2026-05-03 17:34:51,612] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.49s
+[2026-05-03 17:34:51,619] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:34:51,847] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.23s
+[2026-05-03 17:36:01,478] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:36:01,480] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:36:01,486] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:36:01,758] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.28s
+[2026-05-03 17:36:01,767] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:36:01,887] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.41s
+[2026-05-03 17:36:01,896] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:36:02,079] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.59s
+[2026-05-03 17:36:02,089] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:36:02,241] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.47s
+[2026-05-03 17:36:02,375] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.48s
+[2026-05-03 17:36:02,526] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.44s
+[2026-05-03 17:37:16,929] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:37:16,934] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:37:16,937] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:37:17,036] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.10s
+[2026-05-03 17:37:17,040] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:37:17,048] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 17:37:17,049] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.11s
+[2026-05-03 17:37:17,054] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:37:17,057] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:37:17,100] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.06s
+[2026-05-03 17:37:17,116] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.06s
+[2026-05-03 17:37:17,132] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.08s
+[2026-05-03 17:37:53,622] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:37:53,623] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:37:53,622] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:37:53,791] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.17s
+[2026-05-03 17:37:53,797] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:37:53,876] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.25s
+[2026-05-03 17:37:53,883] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:37:53,943] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.32s
+[2026-05-03 17:37:53,948] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:37:54,021] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.22s
+[2026-05-03 17:37:54,089] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.21s
+[2026-05-03 17:37:54,152] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 17:38:08,699] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:38:08,813] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.11s
+[2026-05-03 17:38:08,816] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:38:08,920] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.10s
+[2026-05-03 17:38:10,774] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:38:10,776] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:38:10,775] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:38:10,886] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 17:38:10,889] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:38:11,062] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.29s
+[2026-05-03 17:38:11,067] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:38:11,085] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.20s
+[2026-05-03 17:38:11,122] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.35s
+[2026-05-03 17:38:11,127] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:38:11,187] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.12s
+[2026-05-03 17:38:11,247] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.12s
+[2026-05-03 17:38:12,692] INFO api: API Request: GET /api/v1/crop/recommend/
+[2026-05-03 17:38:12,798] INFO api: API Response: GET /api/v1/crop/recommend/ - Status: 200 - Duration: 0.11s
+[2026-05-03 17:38:12,803] INFO api: API Request: GET /api/v1/crop/recommend/
+[2026-05-03 17:38:12,906] INFO api: API Response: GET /api/v1/crop/recommend/ - Status: 200 - Duration: 0.10s
+[2026-05-03 17:38:20,765] INFO api: API Request: GET /api/v1/crop/recommend/?state=Bihar&season=Kharif
+[2026-05-03 17:38:20,880] INFO api: API Response: GET /api/v1/crop/recommend/?state=Bihar&season=Kharif - Status: 200 - Duration: 0.11s
+[2026-05-03 17:38:27,228] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:38:27,230] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:38:27,232] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:38:27,332] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 17:38:27,338] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:38:27,396] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.17s
+[2026-05-03 17:38:27,400] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:38:27,466] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.23s
+[2026-05-03 17:38:27,470] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:38:27,541] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.20s
+[2026-05-03 17:38:27,601] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 17:38:27,672] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.20s
+[2026-05-03 17:39:48,870] INFO api: API Request: POST /api/v1/soil/analyze/
+[2026-05-03 17:39:51,961] ERROR api: Soil image analysis failed: GEMINI_API_KEY is not set
+[2026-05-03 17:39:51,961] INFO api: API Response: POST /api/v1/soil/analyze/ - Status: 200 - Duration: 3.09s
+[2026-05-03 17:40:07,693] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:40:07,693] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:40:07,697] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:40:07,804] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 17:40:07,808] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:40:07,873] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.18s
+[2026-05-03 17:40:07,877] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:40:07,944] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.25s
+[2026-05-03 17:40:07,948] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:40:08,029] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.22s
+[2026-05-03 17:40:08,106] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.23s
+[2026-05-03 17:40:08,189] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.24s
+[2026-05-03 17:41:51,642] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:41:51,643] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:41:51,643] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:41:51,823] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.18s
+[2026-05-03 17:41:51,829] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:41:51,902] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.26s
+[2026-05-03 17:41:51,908] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:41:51,990] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.35s
+[2026-05-03 17:41:51,995] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:41:52,080] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.25s
+[2026-05-03 17:41:52,168] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.26s
+[2026-05-03 17:41:52,243] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.25s
+[2026-05-03 17:41:53,990] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:41:54,082] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.09s
+[2026-05-03 17:41:54,086] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:41:54,177] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.09s
+[2026-05-03 17:41:58,010] INFO api: API Request: POST /api/v1/chat/
+[2026-05-03 17:42:01,959] ERROR api: Chat failed: No module named 'langchain.prompts'
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 183, in chat
+    result = generate_chat_response(user_message, language, request.user, session_id)
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\utils.py", line 59, in generate_chat_response
+    from .agents import run_chat_agent
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\agents.py", line 16, in <module>
+    from langchain.prompts import PromptTemplate
+ModuleNotFoundError: No module named 'langchain.prompts'
+[2026-05-03 17:42:01,960] ERROR api: API Error: POST /api/v1/chat/ - Status: 500 - Duration: 3.95s
+[2026-05-03 17:42:45,350] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:42:45,350] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:42:45,354] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:42:45,497] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.15s
+[2026-05-03 17:42:45,501] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:42:45,549] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 17:42:45,553] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:42:45,626] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.27s
+[2026-05-03 17:42:45,630] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:42:45,699] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.20s
+[2026-05-03 17:42:45,767] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.21s
+[2026-05-03 17:42:45,954] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.32s
+[2026-05-03 17:43:00,678] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:43:00,679] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:43:00,678] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:43:00,843] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.16s
+[2026-05-03 17:43:00,847] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:43:00,887] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.21s
+[2026-05-03 17:43:00,891] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:43:00,913] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.24s
+[2026-05-03 17:43:00,918] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:43:01,079] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.23s
+[2026-05-03 17:43:01,149] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.26s
+[2026-05-03 17:43:01,223] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.31s
+[2026-05-03 17:43:12,379] INFO api: API Request: POST /api/v1/scan/
+[2026-05-03 17:43:12,508] INFO api: Scan started: Screenshot 2026-04-19 162949.png by hemantsonker4@gmail.com
+[2026-05-03 17:43:12,603] INFO api: AgroAI: Pipeline initialized
+[2026-05-03 17:43:12,935] ERROR api: Gemini Vision analysis failed: GEMINI_API_KEY is not set
+[2026-05-03 17:43:12,935] WARNING api: AgroAI: Gemini Vision failed, using simulation fallback
+[2026-05-03 17:43:13,148] INFO api: AgroAI: Disease 'Powdery Mildew' matched in database
+[2026-05-03 17:43:13,153] WARNING api: AgroAI: Agent pipeline skipped: No module named 'langchain.prompts'
+[2026-05-03 17:43:13,154] ERROR api: Scan failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 70, in scan_crop
+    scan = CropScan.objects.create(
+        user=request.user, image=image,
+    ...<20 lines>...
+        severity_color=result.get('severity_color', 'green'),
+    )
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\query.py", line 669, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\base.py", line 1158, in _save_table
+    else field.pre_save(self, add=True)
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 338, in pre_save
+    file.save(file.name, file.file, save=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 97, in save
+    name = self.field.generate_filename(self.instance, name)
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 358, in generate_filename
+    return self.storage.generate_filename(filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:43:13,162] ERROR api: API Error: POST /api/v1/scan/ - Status: 500 - Duration: 0.78s
+[2026-05-03 17:43:19,098] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:43:19,099] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:43:19,099] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:43:19,208] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 17:43:19,213] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:43:19,272] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.17s
+[2026-05-03 17:43:19,276] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:43:19,341] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.24s
+[2026-05-03 17:43:19,346] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:43:19,415] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.20s
+[2026-05-03 17:43:19,480] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 17:43:19,556] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.21s
+[2026-05-03 17:46:11,840] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:46:11,840] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:46:11,840] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:46:11,963] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 17:46:11,967] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:46:12,045] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.20s
+[2026-05-03 17:46:12,050] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:46:12,121] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.28s
+[2026-05-03 17:46:12,126] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:46:12,208] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.24s
+[2026-05-03 17:46:12,279] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.23s
+[2026-05-03 17:46:12,455] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.33s
+[2026-05-03 17:54:38,211] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:54:38,212] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:54:38,214] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:54:38,345] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.13s
+[2026-05-03 17:54:38,350] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:54:38,416] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 17:54:38,420] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:54:38,491] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.28s
+[2026-05-03 17:54:38,495] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:54:38,571] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.22s
+[2026-05-03 17:54:38,643] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.22s
+[2026-05-03 17:54:38,719] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.22s
+[2026-05-03 17:55:37,505] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-03 17:55:38,271] INFO api: API Response: POST /api/v1/auth/register/ - Status: 201 - Duration: 0.77s
+[2026-05-03 17:55:38,321] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:55:38,322] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:55:38,325] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:55:38,485] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.16s
+[2026-05-03 17:55:38,491] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:55:38,655] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.33s
+[2026-05-03 17:55:38,661] INFO api: API Request: GET /api/v1/dashboard/insights/
+[2026-05-03 17:55:38,680] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.36s
+[2026-05-03 17:55:38,686] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:55:38,755] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.26s
+[2026-05-03 17:55:38,839] INFO api: API Response: GET /api/v1/dashboard/insights/ - Status: 200 - Duration: 0.18s
+[2026-05-03 17:55:38,921] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.23s
+[2026-05-03 17:55:48,077] INFO api: API Request: GET /api/v1/chat/history/?session_id=session_ncq45yorn&limit=50
+[2026-05-03 17:55:48,078] INFO api: API Request: GET /api/v1/chat/history/?session_id=session_3vrito6vf&limit=50
+[2026-05-03 17:55:48,181] INFO api: API Response: GET /api/v1/chat/history/?session_id=session_ncq45yorn&limit=50 - Status: 200 - Duration: 0.10s
+[2026-05-03 17:55:48,248] INFO api: API Response: GET /api/v1/chat/history/?session_id=session_3vrito6vf&limit=50 - Status: 200 - Duration: 0.17s
+[2026-05-03 17:55:52,833] INFO api: API Request: POST /api/v1/chat/
+[2026-05-03 17:55:52,937] ERROR api: Chat failed: No module named 'langchain.prompts'
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 183, in chat
+    result = generate_chat_response(user_message, language, request.user, session_id)
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\utils.py", line 59, in generate_chat_response
+    from .agents import run_chat_agent
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\agents.py", line 16, in <module>
+    from langchain.prompts import PromptTemplate
+ModuleNotFoundError: No module named 'langchain.prompts'
+[2026-05-03 17:55:52,938] ERROR api: API Error: POST /api/v1/chat/ - Status: 500 - Duration: 0.11s
+[2026-05-03 17:58:15,913] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:58:16,125] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.21s
+[2026-05-03 17:58:16,130] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 17:58:16,288] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.16s
+[2026-05-03 17:58:16,394] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 17:58:16,576] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:58:16,580] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.19s
+[2026-05-03 17:58:16,586] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 17:58:16,638] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:58:16,798] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 17:58:16,800] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.21s
+[2026-05-03 17:58:16,892] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.25s
+[2026-05-03 17:58:16,897] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 17:58:16,954] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:58:17,027] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.13s
+[2026-05-03 17:58:17,119] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.17s
+[2026-05-03 17:58:17,123] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:58:17,227] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.10s
+[2026-05-03 17:59:05,079] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:59:05,177] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.10s
+[2026-05-03 17:59:05,182] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 17:59:05,279] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:02,803] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:02,904] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:02,908] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:02,911] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:03,011] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:03,079] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:03,082] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.17s
+[2026-05-03 18:00:03,087] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:03,090] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:03,202] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:03,205] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.12s
+[2026-05-03 18:00:03,275] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.19s
+[2026-05-03 18:00:03,280] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:03,420] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.14s
+[2026-05-03 18:00:05,607] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 18:00:05,705] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:05,709] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 18:00:05,822] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.11s
+[2026-05-03 18:00:09,053] INFO api: API Request: POST /api/v1/chat/
+[2026-05-03 18:00:09,152] ERROR api: Chat failed: No module named 'langchain.prompts'
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 183, in chat
+    result = generate_chat_response(user_message, language, request.user, session_id)
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\utils.py", line 59, in generate_chat_response
+    from .agents import run_chat_agent
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\agents.py", line 16, in <module>
+    from langchain.prompts import PromptTemplate
+ModuleNotFoundError: No module named 'langchain.prompts'
+[2026-05-03 18:00:09,152] ERROR api: API Error: POST /api/v1/chat/ - Status: 500 - Duration: 0.10s
+[2026-05-03 18:00:11,165] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:11,264] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:11,269] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:11,274] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:11,372] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:11,438] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:11,439] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.17s
+[2026-05-03 18:00:11,443] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:11,446] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:11,556] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:11,558] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.12s
+[2026-05-03 18:00:11,634] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.19s
+[2026-05-03 18:00:11,639] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:11,775] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.14s
+[2026-05-03 18:00:24,227] INFO api: API Request: GET /api/v1/scan/history/?limit=1
+[2026-05-03 18:00:24,325] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:24,327] ERROR api: API Error: GET /api/v1/scan/history/?limit=1 - Status: 500 - Duration: 0.10s
+[2026-05-03 18:00:24,331] INFO api: API Request: GET /api/v1/scan/history/?limit=1
+[2026-05-03 18:00:24,337] INFO api: API Request: GET /api/v1/db/fertilizers/?type=&crop=
+[2026-05-03 18:00:24,434] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:24,437] ERROR api: API Error: GET /api/v1/scan/history/?limit=1 - Status: 500 - Duration: 0.11s
+[2026-05-03 18:00:24,505] INFO api: API Response: GET /api/v1/db/fertilizers/?type=&crop= - Status: 200 - Duration: 0.17s
+[2026-05-03 18:00:24,509] INFO api: API Request: GET /api/v1/db/fertilizers/?type=&crop=
+[2026-05-03 18:00:24,618] INFO api: API Response: GET /api/v1/db/fertilizers/?type=&crop= - Status: 200 - Duration: 0.11s
+[2026-05-03 18:00:26,915] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:27,022] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:00:27,026] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:27,028] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:27,127] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:27,196] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:27,198] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.17s
+[2026-05-03 18:00:27,203] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:27,207] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:27,324] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:27,326] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.12s
+[2026-05-03 18:00:27,394] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.19s
+[2026-05-03 18:00:27,399] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:27,519] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.12s
+[2026-05-03 18:00:36,041] INFO api: API Request: POST /api/v1/scan/
+[2026-05-03 18:00:36,136] INFO api: Scan started: Screenshot 2026-04-19 162949.png by hemantsonker4@gmail.com
+[2026-05-03 18:00:36,136] ERROR api: Gemini Vision analysis failed: GEMINI_API_KEY is not set
+[2026-05-03 18:00:36,137] WARNING api: AgroAI: Gemini Vision failed, using simulation fallback
+[2026-05-03 18:00:36,154] INFO api: AgroAI: Disease 'Yellow Rust' matched in database
+[2026-05-03 18:00:36,157] WARNING api: AgroAI: Agent pipeline skipped: No module named 'langchain.prompts'
+[2026-05-03 18:00:36,158] ERROR api: Scan failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 70, in scan_crop
+    scan = CropScan.objects.create(
+        user=request.user, image=image,
+    ...<20 lines>...
+        severity_color=result.get('severity_color', 'green'),
+    )
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\query.py", line 669, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\base.py", line 874, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\base.py", line 966, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\base.py", line 1158, in _save_table
+    else field.pre_save(self, add=True)
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 338, in pre_save
+    file.save(file.name, file.file, save=False)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 97, in save
+    name = self.field.generate_filename(self.instance, name)
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 358, in generate_filename
+    return self.storage.generate_filename(filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:36,161] ERROR api: API Error: POST /api/v1/scan/ - Status: 500 - Duration: 0.12s
+[2026-05-03 18:00:40,568] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:40,673] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:00:40,677] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:40,680] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:40,791] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:00:40,861] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:40,862] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.18s
+[2026-05-03 18:00:40,867] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:40,873] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:40,995] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:40,998] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.13s
+[2026-05-03 18:00:41,080] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.21s
+[2026-05-03 18:00:41,085] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:41,204] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.12s
+[2026-05-03 18:00:47,475] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:47,574] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:00:47,578] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:00:47,581] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:47,696] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 18:00:47,781] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:47,784] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.20s
+[2026-05-03 18:00:47,790] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:00:47,793] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:47,918] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:00:47,920] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.13s
+[2026-05-03 18:00:48,092] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.30s
+[2026-05-03 18:00:48,096] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:00:48,203] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.11s
+[2026-05-03 18:03:14,715] INFO api: API Request: GET /api/v1/scan/history/?limit=1
+[2026-05-03 18:03:14,810] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:03:14,811] ERROR api: API Error: GET /api/v1/scan/history/?limit=1 - Status: 500 - Duration: 0.10s
+[2026-05-03 18:03:14,815] INFO api: API Request: GET /api/v1/scan/history/?limit=1
+[2026-05-03 18:03:14,935] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:03:14,937] ERROR api: API Error: GET /api/v1/scan/history/?limit=1 - Status: 500 - Duration: 0.12s
+[2026-05-03 18:07:14,591] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 18:07:14,699] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.11s
+[2026-05-03 18:07:14,703] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-03 18:07:14,809] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.11s
+[2026-05-03 18:07:15,760] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:07:15,866] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:07:15,870] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:07:15,882] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:07:15,995] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 18:07:16,065] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.18s
+[2026-05-03 18:07:16,069] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:07:16,072] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:07:16,193] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.12s
+[2026-05-03 18:07:16,366] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.29s
+[2026-05-03 18:07:16,370] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:07:16,484] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.11s
+[2026-05-03 18:09:50,791] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:09:50,891] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:09:50,895] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:09:50,899] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:09:51,006] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:09:51,084] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:09:51,085] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.19s
+[2026-05-03 18:09:51,089] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:09:51,092] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:09:51,215] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:09:51,217] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.13s
+[2026-05-03 18:09:51,294] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 18:09:51,299] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:09:51,441] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.14s
+[2026-05-03 18:09:58,701] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:09:58,805] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:09:58,808] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:09:58,812] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:09:58,916] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:09:59,091] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:09:59,092] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.28s
+[2026-05-03 18:09:59,097] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:09:59,101] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:09:59,233] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:09:59,236] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.14s
+[2026-05-03 18:09:59,319] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.22s
+[2026-05-03 18:09:59,324] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:09:59,460] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.14s
+[2026-05-03 18:10:00,342] INFO api: API Request: GET /api/v1/scan/history/?limit=1
+[2026-05-03 18:10:00,438] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:10:00,440] ERROR api: API Error: GET /api/v1/scan/history/?limit=1 - Status: 500 - Duration: 0.10s
+[2026-05-03 18:10:00,444] INFO api: API Request: GET /api/v1/scan/history/?limit=1
+[2026-05-03 18:10:00,567] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:10:00,569] ERROR api: API Error: GET /api/v1/scan/history/?limit=1 - Status: 500 - Duration: 0.12s
+[2026-05-03 18:10:02,118] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:10:02,225] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:10:02,229] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:10:02,232] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:10:02,347] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 18:10:02,420] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:10:02,422] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.19s
+[2026-05-03 18:10:02,426] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:10:02,428] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:10:02,549] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:10:02,552] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.13s
+[2026-05-03 18:10:02,628] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 18:10:02,633] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:10:02,855] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.22s
+[2026-05-03 18:10:44,822] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:10:45,006] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.18s
+[2026-05-03 18:10:45,012] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:10:45,021] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:10:45,191] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.18s
+[2026-05-03 18:10:45,392] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.37s
+[2026-05-03 18:10:45,399] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:10:45,405] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:10:45,556] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.16s
+[2026-05-03 18:10:45,653] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.25s
+[2026-05-03 18:10:45,660] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:10:45,829] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.17s
+[2026-05-03 18:11:29,616] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:11:29,733] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 18:11:29,737] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:11:29,740] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:11:29,854] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.12s
+[2026-05-03 18:11:29,926] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.19s
+[2026-05-03 18:11:29,930] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:11:29,935] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:11:30,052] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.12s
+[2026-05-03 18:11:30,226] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.29s
+[2026-05-03 18:11:30,230] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:11:30,341] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.11s
+[2026-05-03 18:12:23,782] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-03 18:12:23,879] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.10s
+[2026-05-03 18:12:34,208] INFO api: API Request: POST /api/v1/auth/login/
+[2026-05-03 18:12:34,783] INFO api: API Response: POST /api/v1/auth/login/ - Status: 200 - Duration: 0.57s
+[2026-05-03 18:12:34,919] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:12:35,077] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.16s
+[2026-05-03 18:12:35,081] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:12:35,106] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:12:35,221] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.14s
+[2026-05-03 18:12:35,311] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:12:35,313] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.21s
+[2026-05-03 18:12:35,319] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:12:35,323] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:12:35,449] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:12:35,452] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.13s
+[2026-05-03 18:12:35,539] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.22s
+[2026-05-03 18:12:35,544] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:12:35,682] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.14s
+[2026-05-03 18:15:07,075] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:15:07,186] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:15:07,190] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:15:07,193] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:15:07,303] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:15:07,379] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:15:07,382] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.19s
+[2026-05-03 18:15:07,386] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:15:07,389] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:15:07,520] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:15:07,524] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.14s
+[2026-05-03 18:15:07,601] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.21s
+[2026-05-03 18:15:07,607] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:15:07,811] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.20s
+[2026-05-03 18:17:39,763] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:17:39,866] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:17:39,870] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:17:39,873] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:17:39,974] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:17:40,047] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:17:40,049] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.18s
+[2026-05-03 18:17:40,053] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:17:40,059] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:17:40,170] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:17:40,172] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.12s
+[2026-05-03 18:17:40,251] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.19s
+[2026-05-03 18:17:40,256] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:17:40,388] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.13s
+[2026-05-03 18:17:47,533] INFO api: API Request: POST /api/v1/soil/analyze/
+[2026-05-03 18:17:47,633] ERROR api: Soil image analysis failed: GEMINI_API_KEY is not set
+[2026-05-03 18:17:47,634] INFO api: API Response: POST /api/v1/soil/analyze/ - Status: 200 - Duration: 0.10s
+[2026-05-03 18:18:35,712] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:18:35,821] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:18:35,825] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-03 18:18:35,829] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:18:35,937] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:18:36,001] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:18:36,003] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.17s
+[2026-05-03 18:18:36,008] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-03 18:18:36,012] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:18:36,130] ERROR api: History failed: Could not find config for 'default' in settings.STORAGES.
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 26, in __getitem__
+    return self._storages[alias]
+           ~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 29, in __getitem__
+    params = self.backends[alias]
+             ~~~~~~~~~~~~~^^^^^^^
+KeyError: 'default'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 111, in scan_history
+    data = CropScanSerializer(scans, many=True, context={'request': request}).data
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\rest_framework\fields.py", line 1604, in to_representation
+    url = value.url
+          ^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\db\models\fields\files.py", line 69, in url
+    return self.storage.url(self.name)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+    ~~~~~~~~~~~^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\__init__.py", line 23, in _setup
+    self._wrapped = storages[DEFAULT_STORAGE_ALIAS]
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\heman\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\django\core\files\storage\handler.py", line 31, in __getitem__
+    raise InvalidStorageError(
+        f"Could not find config for '{alias}' in settings.STORAGES."
+    )
+django.core.files.storage.handler.InvalidStorageError: Could not find config for 'default' in settings.STORAGES.
+[2026-05-03 18:18:36,135] ERROR api: API Error: GET /api/v1/scan/history/?limit=5 - Status: 500 - Duration: 0.13s
+[2026-05-03 18:18:36,236] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.22s
+[2026-05-03 18:18:36,243] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-03 18:18:36,380] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.14s
+[2026-05-03 18:21:26,351] INFO api: API Request: POST /api/v1/soil/analyze/
+[2026-05-03 18:21:26,465] ERROR api: Soil image analysis failed: GEMINI_API_KEY is not set
+[2026-05-03 18:21:26,466] INFO api: API Response: POST /api/v1/soil/analyze/ - Status: 200 - Duration: 0.11s
+[2026-05-03 18:22:56,675] INFO api: API Request: POST /api/v1/soil/analyze/
+[2026-05-03 18:22:57,664] ERROR api: Soil image analysis failed: GEMINI_API_KEY is not set
+[2026-05-03 18:22:57,664] INFO api: API Response: POST /api/v1/soil/analyze/ - Status: 200 - Duration: 0.99s
+[2026-05-07 16:35:49,265] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-07 16:35:51,335] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 401 - Duration: 2.07s
+[2026-05-07 16:36:23,903] INFO api: API Request: GET /api/v1/health-check/
+[2026-05-07 16:36:23,905] INFO api: API Response: GET /api/v1/health-check/ - Status: 200 - Duration: 0.00s
+[2026-05-07 16:36:24,881] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-07 16:36:24,882] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 401 - Duration: 0.00s
+[2026-05-07 16:36:51,190] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-07 16:36:51,192] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 401 - Duration: 0.00s
+[2026-05-07 16:37:26,947] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-07 16:37:27,008] ERROR api: API Error: POST /api/v1/auth/register/ - Status: 400 - Duration: 0.06s
+[2026-05-07 16:39:20,012] INFO api: API Request: POST /api/v1/auth/register/
+[2026-05-07 16:39:20,935] INFO api: API Response: POST /api/v1/auth/register/ - Status: 201 - Duration: 0.92s
+[2026-05-07 16:39:21,089] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-07 16:39:21,097] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:21,105] INFO api: API Request: GET /api/v1/scan/stats/
+[2026-05-07 16:39:21,114] INFO api: API Response: GET /api/v1/scan/stats/ - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:21,299] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-07 16:39:21,308] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:21,314] INFO api: API Request: GET /api/v1/scan/history/?limit=5
+[2026-05-07 16:39:21,322] INFO api: API Response: GET /api/v1/scan/history/?limit=5 - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:21,329] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-07 16:39:21,334] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:21,342] INFO api: API Request: GET /api/v1/weather/?city=Lucknow
+[2026-05-07 16:39:21,346] INFO api: API Response: GET /api/v1/weather/?city=Lucknow - Status: 200 - Duration: 0.00s
+[2026-05-07 16:39:34,005] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-07 16:39:34,010] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:34,016] INFO api: API Request: GET /api/v1/chat/history/?session_id=&limit=30
+[2026-05-07 16:39:34,022] INFO api: API Response: GET /api/v1/chat/history/?session_id=&limit=30 - Status: 200 - Duration: 0.01s
+[2026-05-07 16:39:37,093] INFO api: API Request: POST /api/v1/chat/
+[2026-05-07 16:39:46,615] ERROR api: Chat failed: No module named 'langchain.prompts'
+Traceback (most recent call last):
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\views.py", line 185, in chat
+    result = generate_chat_response(user_message, language, request.user, session_id)
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\utils.py", line 59, in generate_chat_response
+    from .agents import run_chat_agent
+  File "D:\PROJECT ALL\AgroIntel AI\backend\api\agents.py", line 16, in <module>
+    from langchain.prompts import PromptTemplate
+ModuleNotFoundError: No module named 'langchain.prompts'
+[2026-05-07 16:39:46,618] ERROR api: API Error: POST /api/v1/chat/ - Status: 500 - Duration: 9.52s

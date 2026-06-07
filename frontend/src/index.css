@@ -13,11 +13,11 @@
   --primary-glow: rgba(34, 197, 94, 0.35);
 
   /* Background */
-  --bg-deep: #060e09;
-  --bg-base: #0c1a12;
-  --bg-surface: #132a1e;
-  --bg-surface-hover: #1a3828;
-  --bg-elevated: #1e4430;
+  --bg-deep: #0f1714;
+  --bg-base: #141f1a;
+  --bg-surface: #1e2d26;
+  --bg-surface-hover: #26382f;
+  --bg-elevated: #2d4238;
 
   /* Accent Colors */
   --accent-amber: #f59e0b;

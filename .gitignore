@@ -1,0 +1,42 @@
+# Environment variables (NEVER commit)
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+db.sqlite3
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# FAISS index (regenerated from DB)
+backend/api/faiss_index/
+
+# Media uploads
+backend/media/
+
+# Static collected files
+backend/staticfiles/
+
+# Build artifacts
+*.local

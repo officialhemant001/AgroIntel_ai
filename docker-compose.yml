@@ -1,4 +1,5 @@
 # AgroIntel — Docker Compose
+# ⚠️  Create a .env file in this directory with: DB_PASSWORD, SECRET_KEY, GEMINI_API_KEY
 version: '3.8'
 
 services:
@@ -9,7 +10,7 @@ services:
     environment:
       POSTGRES_DB: ${DB_NAME:-agrointel}
       POSTGRES_USER: ${DB_USER:-postgres}
-      POSTGRES_PASSWORD: ${DB_PASSWORD:-Hemant@123}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?DB_PASSWORD is required}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -29,10 +30,12 @@ services:
       - USE_POSTGRES=True
       - DB_NAME=${DB_NAME:-agrointel}
       - DB_USER=${DB_USER:-postgres}
-      - DB_PASSWORD=${DB_PASSWORD:-Hemant@123}
+      - DB_PASSWORD=${DB_PASSWORD:?DB_PASSWORD is required}
       - DB_HOST=db
       - DB_PORT=5432
-      - SECRET_KEY=${SECRET_KEY:-django-insecure-production-key-change-me}
+      - SECRET_KEY=${SECRET_KEY:?SECRET_KEY is required}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY:-}
       - ALLOWED_HOSTS=${ALLOWED_HOSTS:-localhost,127.0.0.1,backend}
       - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost,http://localhost:80}
     volumes:

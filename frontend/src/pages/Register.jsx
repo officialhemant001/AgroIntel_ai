@@ -28,19 +28,17 @@ export default function Register() {
       return;
     }
 
-    if (form.password.length < 4) {
-      setError("Password must be at least 4 characters");
+    if (form.password.length < 8) {
+      setError("Password must be at least 8 characters");
       return;
     }
 
     try {
       setLoading(true);
 
-      // Try backend API first
       const result = await registerUser(form.name, form.email, form.password);
 
       if (result.success) {
-        localStorage.setItem("user", JSON.stringify(result.data));
         navigate("/dashboard");
       } else {
         // Handle validation errors from backend
@@ -50,14 +48,8 @@ export default function Register() {
         setError(errorMsg || "Registration failed");
       }
     } catch (err) {
-      // Fallback for offline/development mode
-      console.warn("API unavailable, using offline registration", err);
-
-      localStorage.setItem(
-        "user",
-        JSON.stringify({ name: form.name, email: form.email })
-      );
-      navigate("/dashboard");
+      console.error("Registration failed:", err);
+      setError(err.message || "Unable to connect to server. Please try again later.");
     } finally {
       setLoading(false);
     }

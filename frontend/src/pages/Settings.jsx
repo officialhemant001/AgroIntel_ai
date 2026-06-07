@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { logoutUser } from "../services/api";
 
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
@@ -38,8 +39,7 @@ export default function Settings() {
 
   // Logout
   const handleLogout = () => {
-    localStorage.removeItem("user");
-    navigate("/");
+    logoutUser();
   };
 
   return (

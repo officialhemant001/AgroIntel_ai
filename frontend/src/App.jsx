@@ -10,6 +10,8 @@ import Treatment from "./pages/Treatment";
 import PestDetection from "./pages/PestDetection";
 import CropHealth from "./pages/CropHealth";
 import ChatAssistant from "./pages/ChatAssistant";
+import SoilAnalysis from "./pages/SoilAnalysis";
+import CropRecommend from "./pages/CropRecommend";
 
 import AuthGuard from "./components/AuthGuard";
 import LanguageProvider from "./context/LanguageContext";
@@ -32,6 +34,8 @@ function App() {
           <Route path="/pest" element={<AuthGuard><PestDetection /></AuthGuard>} />
           <Route path="/health" element={<AuthGuard><CropHealth /></AuthGuard>} />
           <Route path="/chat" element={<AuthGuard><ChatAssistant /></AuthGuard>} />
+          <Route path="/soil" element={<AuthGuard><SoilAnalysis /></AuthGuard>} />
+          <Route path="/crop-recommend" element={<AuthGuard><CropRecommend /></AuthGuard>} />
 
           {/* 404 Catch-all */}
           <Route path="*" element={<Navigate to="/dashboard" replace />} />

@@ -24,12 +24,15 @@ const getTokens = () => {
   }
 };
 
-// Request interceptor: Attach Access Token
+// Request interceptor: Attach Access Token (skip for auth endpoints)
 api.interceptors.request.use(
   (config) => {
-    const tokens = getTokens();
-    if (tokens?.access) {
-      config.headers.Authorization = `Bearer ${tokens.access}`;
+    const isAuthEndpoint = config.url?.includes("/auth/login") || config.url?.includes("/auth/register");
+    if (!isAuthEndpoint) {
+      const tokens = getTokens();
+      if (tokens?.access) {
+        config.headers.Authorization = `Bearer ${tokens.access}`;
+      }
     }
     return config;
   },
@@ -197,6 +200,29 @@ export async function getMedicines(type = "", target = "") {
 
 export async function searchDatabase(query) {
   const { data } = await api.get("/db/search/", { params: { q: query } });
+  return data;
+}
+
+export async function analyzeSoil(imageFile) {
+  const formData = new FormData();
+  formData.append("image", imageFile);
+  const { data } = await api.post("/soil/analyze/", formData, {
+    headers: { "Content-Type": "multipart/form-data" },
+    timeout: 60000,
+  });
+  return data;
+}
+
+export async function getCropRecommendations(state = "", season = "") {
+  const params = {};
+  if (state) params.state = state;
+  if (season) params.season = season;
+  const { data } = await api.get("/crop/recommend/", { params });
+  return data;
+}
+
+export async function getDashboardInsights() {
+  const { data } = await api.get("/dashboard/insights/");
   return data;
 }
 

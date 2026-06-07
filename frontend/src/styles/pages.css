@@ -17,7 +17,7 @@
 }
 
 .page-inner {
-  padding: 28px 32px;
+  padding: 32px 40px;
   animation: fadeIn 0.5s ease;
 }
 
@@ -290,7 +290,7 @@
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 22px;
+  padding: 26px;
   transition: all var(--transition-base);
   display: flex;
   align-items: flex-start;
@@ -428,7 +428,7 @@
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 24px;
+  padding: 28px;
 }
 
 .report-result-card h3 {

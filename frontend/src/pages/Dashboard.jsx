@@ -105,6 +105,13 @@ export default function Dashboard() {
       path: "/health",
     },
     {
+      icon: "🧪",
+      iconBg: "rgba(16, 185, 129, 0.15)",
+      title: "Soil Analysis",
+      desc: "Analyze soil quality & pH",
+      path: "/soil",
+    },
+    {
       icon: "🤖",
       iconBg: "rgba(139, 92, 246, 0.15)",
       title: "AI Chat",

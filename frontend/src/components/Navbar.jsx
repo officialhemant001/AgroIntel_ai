@@ -1,16 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { logoutUser } from "../services/api";
+import { LanguageContext } from "../context/LanguageContext";
 
 export default function Navbar() {
   const [profileOpen, setProfileOpen] = useState(false);
   const navigate = useNavigate();
+  const { lang, switchLang } = useContext(LanguageContext);
 
-  const user = JSON.parse(localStorage.getItem("user") || "null");
+  const safeParse = (key) => {
+    try {
+      const val = localStorage.getItem(key);
+      return val && val !== "undefined" ? JSON.parse(val) : null;
+    } catch { return null; }
+  };
+  const user = safeParse("user");
 
   const handleLogout = () => {
-    localStorage.removeItem("user");
     setProfileOpen(false);
-    navigate("/");
+    logoutUser();
   };
 
   return (
@@ -32,11 +40,14 @@ export default function Navbar() {
       <div className="navbar-right">
         <button className="navbar-icon-btn" title="Notifications">
           🔔
-          <span className="badge">3</span>
         </button>
 
-        <button className="navbar-icon-btn" title="Language">
-          🌐
+        <button
+          className="navbar-icon-btn"
+          title={lang === "en" ? "Switch to Hindi" : "Switch to English"}
+          onClick={() => switchLang(lang === "en" ? "hi" : "en")}
+        >
+          {lang === "en" ? "🇮🇳" : "🇬🇧"}
         </button>
 
         {/* Profile */}

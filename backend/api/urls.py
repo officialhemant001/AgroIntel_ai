@@ -1,15 +1,13 @@
 """
 AgroIntel API URL Configuration
-
-All API routes are prefixed with /api/v1/ (set in agrointel/urls.py).
+All API routes prefixed with /api/v1/ (set in agrointel/urls.py).
 """
-
 from django.urls import path
 from rest_framework_simplejwt.views import TokenRefreshView
 from . import views
 
 urlpatterns = [
-    # Health check
+    # Health
     path('health-check/', views.health_check, name='health_check'),
 
     # Auth
@@ -17,11 +15,9 @@ urlpatterns = [
     path('auth/login/', views.LoginView.as_view(), name='login'),
     path('auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
-    # Crop Scans (with requested aliases)
+    # Crop Scans
     path('scan/', views.scan_crop, name='scan_crop'),
-    path('predict/', views.scan_crop, name='predict'),
     path('scan/history/', views.scan_history, name='scan_history'),
-    path('history/', views.scan_history, name='history_alias'),
     path('scan/stats/', views.scan_stats, name='scan_stats'),
     path('scan/<int:scan_id>/', views.scan_detail, name='scan_detail'),
 
@@ -32,7 +28,16 @@ urlpatterns = [
     # Weather
     path('weather/', views.weather, name='weather'),
 
-    # Agriculture Database — Search & Query
+    # Soil Analysis
+    path('soil/analyze/', views.soil_analyze, name='soil_analyze'),
+
+    # Crop Recommendation
+    path('crop/recommend/', views.crop_recommend, name='crop_recommend'),
+
+    # Dashboard Insights
+    path('dashboard/insights/', views.dashboard_insights, name='dashboard_insights'),
+
+    # Agriculture Database
     path('db/diseases/', views.list_diseases, name='list_diseases'),
     path('db/pests/', views.list_pests, name='list_pests'),
     path('db/fertilizers/', views.list_fertilizers, name='list_fertilizers'),

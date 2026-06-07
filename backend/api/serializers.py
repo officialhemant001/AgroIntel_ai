@@ -166,7 +166,7 @@ class ChatInputSerializer(serializers.Serializer):
         default='en',
     )
     session_id = serializers.CharField(
-        max_length=100, required=False, default='',
+        max_length=100, required=False, default='', allow_blank=True
     )
 
 
@@ -178,7 +178,7 @@ class RegisterSerializer(serializers.Serializer):
     """Validates user registration data."""
     name = serializers.CharField(max_length=150, required=True)
     email = serializers.EmailField(required=True)
-    password = serializers.CharField(min_length=4, write_only=True, required=True)
+    password = serializers.CharField(min_length=8, write_only=True, required=True)
 
     def validate_email(self, value):
         """Check that email is unique."""

@@ -7,7 +7,13 @@ export default function Sidebar() {
   const location = useLocation();
   const { translations } = useContext(LanguageContext);
 
-  const user = JSON.parse(localStorage.getItem("user") || "null");
+  const safeParse = (key) => {
+    try {
+      const val = localStorage.getItem(key);
+      return val && val !== "undefined" ? JSON.parse(val) : null;
+    } catch { return null; }
+  };
+  const user = safeParse("user");
 
   const mainLinks = [
     { path: "/dashboard", icon: "📊", label: translations.dashboard || "Dashboard" },
@@ -19,6 +25,8 @@ export default function Sidebar() {
     { path: "/health", icon: "🌾", label: translations.health || "Crop Health" },
     { path: "/treatment", icon: "💊", label: translations.treatment || "Treatment" },
     { path: "/pest", icon: "🐛", label: "Pest Detection" },
+    { path: "/soil", icon: "🧪", label: "Soil Analysis" },
+    { path: "/crop-recommend", icon: "🌾", label: "Crop Recommend" },
   ];
 
   const aiLinks = [
